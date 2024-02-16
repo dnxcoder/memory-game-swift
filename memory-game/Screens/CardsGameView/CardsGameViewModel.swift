@@ -49,11 +49,7 @@ final class CardViewModel: ObservableObject {
     
     private func verifyCard(card:Card) -> Void{
         
-        //If my current card is diferent from the found partners i proceed
-//        if let index = (self.foundParnersCards.firstIndex(where: {$0 != card.name})){
-//            isAfterMatch = true;
-//        }
-        
+        //If my current card is diferent from the found partners i proceed        
         //veryfing if there is no cards on my revealedCards
         //and if not just add a card
         if(self.revealedCards.isEmpty){
